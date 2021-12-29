@@ -20,8 +20,14 @@ for (let i = 0; i < 5; i++) {
 // document.getElementById("numero4").innerHTML = (quartoNum);  
 // document.getElementById("numero5").innerHTML = (quintoNum);  
 
-setTimeout(hide, 3000);
+setTimeout(hide, 30000);
 
 function hide(cinqueNumeri){
 	cinqueNumeri=document.getElementById("numero1").style.display="none";
+    for (let i = 0; i < 5; i++){
+        let inserisci = prompt("Inserisci i numeri");
+    }
 };
+
+
+
