@@ -1,0 +1,20 @@
+// for (let i = 0; i < 5; i === 0) {
+//     const cinqueNumeri = Math.floor(Math.random() * ((1000 + 1) - 1)) + 1;  
+//     console.log(cinqueNumeri);  
+// };
+const primoNum = Math.floor(Math.random() * ((1000 + 1) - 1)) + 1;  
+console.log(primoNum);
+const secNum = Math.floor(Math.random() * ((1000 + 1) - 1)) + 1; 
+console.log(secNum); 
+const terzoNum = Math.floor(Math.random() * ((1000 + 1) - 1)) + 1;  
+console.log(terzoNum);
+const quartoNum = Math.floor(Math.random() * ((1000 + 1) - 1)) + 1;  
+console.log(quartoNum);
+const quintoNum = Math.floor(Math.random() * ((1000 + 1) - 1)) + 1;  
+console.log(quintoNum);
+
+document.getElementById("numero1").innerHTML = (primoNum);
+document.getElementById("numero2").innerHTML = (secNum);  
+document.getElementById("numero3").innerHTML = (terzoNum);  
+document.getElementById("numero4").innerHTML = (quartoNum);  
+document.getElementById("numero5").innerHTML = (quintoNum);  
