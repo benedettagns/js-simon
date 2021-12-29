@@ -29,5 +29,7 @@ function hide(cinqueNumeri){
     }
 };
 
+//to do: if e else
+
 
 
