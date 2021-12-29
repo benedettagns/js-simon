@@ -1,6 +1,7 @@
 for (let i = 0; i < 5; i++) {
     const cinqueNumeri = Math.floor(Math.random() * ((1000 + 1) - 1)) + 1;  
     document.getElementById("numero1").innerHTML = (cinqueNumeri); 
+    //scrivere tutti e cinque i numeri
 };
 
 // const primoNum = Math.floor(Math.random() * ((1000 + 1) - 1)) + 1;  
@@ -20,16 +21,19 @@ for (let i = 0; i < 5; i++) {
 // document.getElementById("numero4").innerHTML = (quartoNum);  
 // document.getElementById("numero5").innerHTML = (quintoNum);  
 
-setTimeout(hide, 30000);
+setTimeout(hide, 3000);
 
 function hide(cinqueNumeri){
 	cinqueNumeri=document.getElementById("numero1").style.display="none";
     for (let i = 0; i < 5; i++){
-        let inserisci = prompt("Inserisci i numeri");
-    }
+        let inserisciNum = prompt("Inserisci i numeri");
+        
+        //non funziona
+        // if (inserisciNum === cinqueNumeri) {
+        //     document.getElementById("vittoria").innerHTML = ('il numero è corretto');
+        // } else {
+        //     document.getElementById("sconfitta").innerHTML = ('try again');
+        // };
+    };    
 };
-
-//to do: if e else
-
-
 
